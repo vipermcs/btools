@@ -49,8 +49,10 @@ The data, constants (coefficients) and formulas come from these public access so
 Citation:
 
 - Campos M. btools: Basic collection of tools for analytical work. 2021-Jul-25. https://github.com/vipermcs/btools .
+- Please, do quote also the original source references for the data and formulas applicable to your usage.
 
 Comments:
 
-Full documentation is being developed.
+My work is just a light shim and wrangling of the source data and formulas, useful for data analysis.
+More documentation is being developed.
 A newer version is planned (with some breaking changes), converging into a package or set of packages.
