@@ -8,6 +8,17 @@ Contents:
 - GCTabs.R, GCTabs.rda: set of functions and tables to compute anthropometric indices for childhood and adolescence (WHO 2006).
 - NuTabs.R, NuTabs.rda: set of functions and tables to compute nutritional requirements (FAO/WHO/UNU 2004).
 - PETabs.R, PETabs.rda: set of demographic data for Peru.
+  - TPPBE17: ages (simple years), with their projected populations 1950-2050 (INEI BE17 2009)
+  - TPPBE37: districts, sexes, calendar years, with their projected populations by 5-yr age group (INEI BAD37 2009)
+  - INEIGC20: districts belonging to large cities, except Lima Metropolitana (capital) (INEI 2020 block plans)
+  - TDPD2017: districts, with their population at the 2017 census (INEI 2018 REDATAM)
+  - TDPD2017ESA: districts, 5-yr age groups and sexes with their population at the 2017 census (INEI 2018 REDATAM)
+  - PEPRE: presidents, with their terms, 1995-2021
+  - PEMSA: ministers of Health, with their terms, 1999-2021
+  - PEMDI: ministers of Social Development, with their terms, 2011-2021
+  - MP09: districts, with their poverty rates (INEI Poverty Map 2009)
+  - MP13: districts, with their poverty rates (INEI Poverty Map 2013)
+  - EPPR: indicators (currently just undernutrition 0-60) for subgroups and periods (mostly years) (INEI PPR reports)
 
 References:
 
