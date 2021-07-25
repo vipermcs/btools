@@ -8,7 +8,7 @@ Contents:
 - GCTabs.R, GCTabs.rda: set of functions and tables to compute anthropometric indices for childhood and adolescence.
   - W6NA: sexes, months of age, with their height for age, weight for age and BMI for ages coefficients for children 5+ and adolescents (WHO 2006)
   - W6NI: sexes, age or height levels, height method, with their coefficients for children 0-60 months (WHO 2006)
-  - QTPR: clothes items, with their estimated weight (INS/CENAN 2007)
+  - QTPR: clothes items, with their estimated weight (INS/CENAN 2008)
   - WNAzcm: function to compute anthropometric indices for children 5+ and adolescents
   - WINzcm: function to compute anthropometric indices for children <5
   - vWINzcm: vectorized WINzcm
@@ -30,17 +30,21 @@ References:
 
 The data, constants (coefficients) and formulas come from these public access sources:
 
-- de Onis M, Onyango AW, Borghi E, Siyam A, Nishida C, Siekmann J. Development of a WHO growth reference for school-aged children and adolescents. Bull World Health Organ. 2007;85(9):660–7. 
+- de Onis M, Onyango AW, Borghi E, Siyam A, Nishida C, Siekmann J. Development of a WHO growth reference for school-aged children and adolescents. Bull World Health Organ [Internet]. 2007;85(9):660–7. Disponible en: https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/18026621/
 - Food and Agriculture Organization (FAO). Human energy requirements - Report of a Joint FAO/WHO/UNU Expert Consultation Rome, 17–24 October 2001 [Internet]. Rome, IT: FAO; 2004. Report No.: 1. Disponible en: http://www.fao.org/publications/card/es/c/e1faed04-3a4c-558d-8ec4-76a1a7323dcc/
-- Institute of Medicine (U.S.), editor. DRI: dietary reference intakes for vitamin A, vitamin K, arsenic, boron, chromium, copper, iodine, iron, manganese, molybdenum, nickel, silicon, vanadium, and zinc: a report of the Panel on Micronutrients ... and the Standing Committee on the Scientific Evaluation of Dietary Reference Intakes, Food and Nutrition Board, Institute of Medicine. Washington, D.C: National Academy Press; 2001. 773 p. 
-- Institute of Medicine (U.S.), Institute of Medicine (U.S.), editores. Dietary reference intakes for energy, carbohydrate, fiber, fat, fatty acids, cholesterol, protein, and amino acids. Washington, D.C: National Academies Press; 2005. 1331 p. 
-- Perú, Instituto Nacional de Estadística e Informática (INEI). Perú: Estimaciones y Proyecciones de Población 1950-2050 Urbana-Rural 1970-2025. Lima, PE: INEI; 2001 ago. (Boletín de Análisis Demográfico). Report No.: 35. 
-- Perú, Instituto Nacional de Estadística e Informática (INEI). Perú: Estimaciones y Proyecciones de Población, 1950-2050. Lima, PE: INEI; 2009 mar. (Boletín de Análisis Demográfico). Report No.: 36. 
-- Perú, Instituto Nacional de Estadística e Informática (INEI). PERÚ: Estimaciones y Proyecciones de Población por Departamento, Sexo y Grupos Quinquenales de Edad 1995-2025. Lima, PE: INEI; 2009 oct. (Boletín de Análisis Demográfico). Report No.: 37. 
+- Institute of Medicine (U.S.), editor. DRI: dietary reference intakes for vitamin A, vitamin K, arsenic, boron, chromium, copper, iodine, iron, manganese, molybdenum, nickel, silicon, vanadium, and zinc: a report of the Panel on Micronutrients ... and the Standing Committee on the Scientific Evaluation of Dietary Reference Intakes, Food and Nutrition Board, Institute of Medicine [Internet]. Washington, D.C: National Academy Press; 2001. 773 p. Disponible en: https://www.ncbi.nlm.nih.gov/books/NBK222310/
+- Institute of Medicine (U.S.), Institute of Medicine (U.S.), editores. Dietary reference intakes for energy, carbohydrate, fiber, fat, fatty acids, cholesterol, protein, and amino acids [Internet]. Washington, D.C: National Academies Press; 2005. 1331 p. Disponible en: https://www.nap.edu/catalog/10490/dietary-reference-intakes-for-energy-carbohydrate-fiber-fat-fatty-acids-cholesterol-protein-and-amino-acids
+- Perú, Instituto Nacional de Estadística e Informática (INEI). Perú: Estimaciones y Proyecciones de Población 1950-2050 Urbana-Rural 1970-2025 [Internet]. Lima, PE: INEI; 2001 ago. (Boletín de Análisis Demográfico). Report No.: 35. Disponible en: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib0466/Libro.pdf
+- Perú, Instituto Nacional de Estadística e Informática (INEI). Perú: Estimaciones y Proyecciones de Población, 1950-2050 [Internet]. Lima, PE: INEI; 2009 mar. (Boletín de Análisis Demográfico). Report No.: 36. Disponible en: http://proyectos.inei.gob.pe/web/biblioineipub/bancopub/Est/Lib0845/index.htm
+- Perú, Instituto Nacional de Estadística e Informática (INEI). Perú: Estimaciones y Proyecciones de Población Total, por Años Calendario y Edades Simples, 1950-2050 [Internet]. Lima, PE: INEI; 2009 sep. (Boletín Especial). Report No.: 17. Disponible en: http://proyectos.inei.gob.pe/web/biblioineipub/bancopub/Est/Lib0843/index.htm
+- Perú, Instituto Nacional de Estadística e Informática (INEI). PERÚ: Estimaciones y Proyecciones de Población por Departamento, Sexo y Grupos Quinquenales de Edad 1995-2025 [Internet]. Lima, PE: INEI; 2009 oct. (Boletín de Análisis Demográfico). Report No.: 37. Disponible en: http://proyectos.inei.gob.pe/web/biblioineipub/bancopub/Est/Lib0846/index.htm
 - Perú, Instituto Nacional de Estadística e Informática (INEI). Perú: Estimaciones y Proyecciones de Población Total por Sexo de las Principales Ciudades, 2000-2015. Lima, PE: INEI; 2012 mar. (Boletín Especial). Report No.: 23. 
+- Perú, Instituto Nacional de Estadística e Informática (INEI). Censos Nacionales 2017: XII de Población, VII de Vivienda y III de Comunidades Indígenas - Sistema de Consulta de Base de Datos [Internet]. INEI. 2018 [citado el 10 de septiembre de 2018]. Disponible en: http://censos2017.inei.gob.pe/redatam/
 - Perú, Instituto Nacional de Estadística e Informática (INEI). Planos Estratificados de Lima Metropolitana a Nivel de Manzanas según Ingreso Per Cápita del Hogar [Internet]. Lima, PE: INEI; 2020 jul. Disponible en: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1744/libro.pdf
 - Perú, Instituto Nacional de Estadística e Informática (INEI). Planos Estratificados por ingreso a nivel de manzanas de las Grandes Ciudades 2020 según ingreso per cápita del hogar y estratificado regional [Internet]. Lima, PE: INEI; 2020 jul. Disponible en: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1747/libro.pdf
-- World Health Organization (WHO). WHO child growth standards: length/height-for-age, weight-for-age, weight-for-length, weight-for-height and body mass index-for-age ; methods and development. Geneva: WHO Press; 2006. 312 p. 
+- Perú, Instituto Nacional de Salud (INS), Centro Nacional de Alimentación y Nutrición (CENAN). DataLib: Biblioteca Digital INS/CENAN - Biblioteca Pública Digital de Encuestas [Internet]. DataLib: Biblioteca Digital INS/CENAN. 2008 [citado el 25 de julio de 2021]. Disponible en: https://www.ins.gob.pe/insvirtual/BiblioDig/
+- Peru, Instituto Nacional de Salud, Centro Nacional de Alimentación y Nutrición (CENAN), editor. Tablas Peruanas de Composición de Alimentos. Lima, PE: INS/CENAN; 2017. 
+- World Health Organization (WHO). WHO child growth standards: length/height-for-age, weight-for-age, weight-for-length, weight-for-height and body mass index-for-age ; methods and development [Internet]. Geneva: WHO Press; 2006. 312 p. Disponible en: https://www.who.int/publications-detail-redirect/924154693X
 
 Citation:
 
@@ -49,3 +53,4 @@ Citation:
 Comments:
 
 Full documentation is being developed.
+A newer version is planned (with some breaking changes), converging into a package or set of packages.
