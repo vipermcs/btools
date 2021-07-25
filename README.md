@@ -11,7 +11,7 @@ Contents:
 
 References:
 
-The data and constants (coefficients) come from these public access sources:
+The data, constants (coefficients) and formulas come from these public access sources:
 
 - de Onis M, Onyango AW, Borghi E, Siyam A, Nishida C, Siekmann J. Development of a WHO growth reference for school-aged children and adolescents. Bull World Health Organ. 2007;85(9):660–7. 
 - Food and Agriculture Organization (FAO). Human energy requirements - Report of a Joint FAO/WHO/UNU Expert Consultation Rome, 17–24 October 2001 [Internet]. Rome, IT: FAO; 2004. Report No.: 1. Disponible en: http://www.fao.org/publications/card/es/c/e1faed04-3a4c-558d-8ec4-76a1a7323dcc/
@@ -32,4 +32,3 @@ Citation:
 Comments:
 
 Full documentation is being developed.
-The reference data and algorithms come from open public sources (INEI, WHO, FAO), which will be properly credited soon.
