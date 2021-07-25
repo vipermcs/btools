@@ -5,7 +5,13 @@ Basic collection of tools for analytical work.
 Contents:
 
 - NMuestra.xls: worksheet to compute sample size for basic cases.
-- GCTabs.R, GCTabs.rda: set of functions and tables to compute anthropometric indices for childhood and adolescence (WHO 2006).
+- GCTabs.R, GCTabs.rda: set of functions and tables to compute anthropometric indices for childhood and adolescence.
+  - W6NA: sexes, months of age, with their height for age, weight for age and BMI for ages coefficients for children 5+ and adolescents (WHO 2006)
+  - W6NI: sexes, age or height levels, height method, with their coefficients for children 0-60 months (WHO 2006)
+  - QTPR: clothes items, with their estimated weight (INS/CENAN 2007)
+  - WNAzcm: function to compute anthropometric indices for children 5+ and adolescents
+  - WINzcm: function to compute anthropometric indices for children <5
+  - vWINzcm: vectorized WINzcm
 - NuTabs.R, NuTabs.rda: set of functions and tables to compute nutritional requirements (FAO/WHO/UNU 2004).
 - PETabs.R, PETabs.rda: set of demographic data for Peru.
   - TPPBE17: ages (simple years), with their projected populations 1950-2050 (INEI BE17 2009)
