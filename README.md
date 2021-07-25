@@ -2,7 +2,7 @@
 
 Basic collection of tools for analytical work.
 
-NMuestra.xlsx: worksheet to compute sample size for basic cases.
+- NMuestra.xls: worksheet to compute sample size for basic cases.
 - GCTabs.R, GCTabs.rda: set of functions and tables to compute anthropometric indices for childhood and adolescence (WHO 2006).
 - NuTabs.R, NuTabs.rda: set of functions and tables to compute nutritional requirements (FAO/WHO/UNU 2004).
 - PETabs.R, PETabs.rda: set of demographic data for Peru.
