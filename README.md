@@ -2,6 +2,10 @@
 
 Basic collection of tools for analytical work.
 
+Usage:
+
+Just load the rda files. They contain the data frames and functions. The R files are included here just for documentation (they will not run without additional source files and packages available).
+
 Contents:
 
 - NMuestra.xls: worksheet to compute sample size for basic cases.
@@ -12,7 +16,29 @@ Contents:
   - WNAzcm: function to compute anthropometric indices for children 5+ and adolescents
   - WINzcm: function to compute anthropometric indices for children <5
   - vWINzcm: vectorized WINzcm
-- NuTabs.R, NuTabs.rda: set of functions and tables to compute nutritional requirements (FAO/WHO/UNU 2004).
+- NuTabs.R, NuTabs.rda: set of functions and tables to compute nutritional requirements and food composition tables.
+  - FET0502: Energy Requirements, Table 5.2 (FAO/WHO/UNU 2004)
+  - FET0503: Energy Requirements, Table 5.3 (FAO/WHO/UNU 2004)
+  - FPT31X: Protein Requirements, Table 3.1 (WHO 2007)
+  - FPT33A: Protein Requirements, Table 3.3A (WHO 2007)
+  - FPT33B: Protein Requirements, Table 3.3B (WHO 2007)
+  - FPT48: Protein Requirements, Table 4.8 (WHO 2007)
+  - FHT135: Iron Requirements, Table 13.5 (WHO 2004)
+  - C12T1203: Zinc Requirements, Table 12.3 (WHO 2004)
+  - C12T1204: Zinc Requirements, Table 12.4 (WHO 2004)
+  - C04T0402: Calcium Requirements, Table 4.2 (WHO 2004)
+  - C02T0204: Vitamin A Requirements, Table 2.4 (WHO 2004)
+  - C07T0701: Vitamin C Requirements, Table 7.1 (WHO 2004)
+  - C09T09XX: Vitamins B (Th,Rb,Ni,Px) Requirements, Tables 9.2-9.5 (WHO 2004)
+  - C1XT1415: Vitamins B (Folic,Cobalamine) Requirements, Tables 15.1 & 14.1 (WHO 2004)
+  - RQFWUE: function to compute FAO/WHO/UNU energy requirements
+  - RQFWUP: function to compute FAO/WHO/UNU protein requirements, EAR and UL
+  - RQFWUH: function to compute FAO/WHO/UNU iron requirements
+  - R1FWUP: function to compute FAO/WHO/UNU protein requirements, EAR only
+  - vRQFWUE: vectorized RQFWUE
+  - vRQFWUH: vectorized RQFWUH
+  - vRQFWUP: vectorized RQFWUP
+  - vR1FWUP: vectorized R1FWUP
 - PETabs.R, PETabs.rda: set of demographic data for Peru.
   - TPPBE17: ages (simple years), with their projected populations 1950-2050 (INEI BE17 2009)
   - TPPBE37: districts, sexes, calendar years, with their projected populations by 5-yr age group (INEI BAD37 2009)
